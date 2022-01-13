@@ -82,3 +82,27 @@ hr{
   text-decoration: none;
 }
 /* ************ top player styles end *********** */
+/* ****** start course style****** */
+.course-containt{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+}
+.course-banner img{
+  width: 266px;
+  height: 141px;
+}
+.course-author{
+  color: #ED6B4F;
+}
+.icon .fas{
+  color:yellow;
+}
+.icon .empty{
+  color: gray;
+}
+.course-info{
+  display: flex;
+  justify-content: space-between;
+}
+/* ****** end course style****** */
