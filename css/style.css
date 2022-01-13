@@ -88,9 +88,14 @@ hr{
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 2rem;
 }
+.course-detaile{
+  width: 253px;
+  /* height: 270px; */
+}
 .course-banner img{
   width: 266px;
   height: 141px;
+
 }
 .course-author{
   color: #ED6B4F;
@@ -103,6 +108,10 @@ hr{
 }
 .course-info{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
+  flex-wrap: wrap;
+}
+.course-duration{
+  color: #FF4A60;
 }
 /* ****** end course style****** */
