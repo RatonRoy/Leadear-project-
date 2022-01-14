@@ -115,3 +115,43 @@ hr{
   color: #FF4A60;
 }
 /* ****** end course style****** */
+.boxes{
+  display: grid;
+  /* grid-template-columns:repeat(3, 1fr) ; */
+  /* grid-template-columns: 500px repeat(2, 1fr); */
+  grid-template-columns: repeat(2, 500px) 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-column-gap: 2rem;
+  margin-top: 2rem;
+}
+.box-1{
+  background-color: red;
+  width: 300px;
+  height: 300px;
+}
+.box-2{
+  background-color: yellow;
+  width: 300px;
+  height: 300px;
+}
+.box-3{
+  background-color: green;
+  width: 300px;
+  height: 300px;
+}
+/* ----------------
+Responsive design Start 
+------------------- */
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+/* ----------------
+Responsive design End 
+------------------- */
